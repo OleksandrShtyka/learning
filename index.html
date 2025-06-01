@@ -1,13 +1,81 @@
-<h1>Test page</h1>
-<p> This is a test page from html</p>
-<a href="https://youtube.com" target="_blank">Youtube</a>
-<img src="https://itigic.com/wp-content/uploads/2021/11/20211107_6187f4ad9e8e6.webp" alt="Youtube webp"
-width="350" />
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <title>Test Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
 
-<h2> About of Youtube</h2>
-<ol>
-    <li>
-        <a href="C:\Users\sstik\OneDrive\Documents\GitHub\learning\files\Потап_НКаменская_-_Не_хватило_воздуха_(z3-fm.com).mp3" download="music">Download file</a>
-    </li>
-</ol>
+<body>
+    <h1>Test Page</h1>
+    <p>This is a test page from HTML.</p>
+
+ 
+    <a href="https://youtube.com" target="_blank">
+        <button>Go to YouTube</button>
+    </a>
+    <p>Click the button to open YouTube in a new tab.</p>
+
+    <br><br>
+    <img src="https://itigic.com/wp-content/uploads/2021/11/20211107_6187f4ad9e8e6.webp" alt="YouTube WebP" width="350">
+
+    <br><br>
+    <button onclick="alert('Hello, world!')">Click me!</button>
+
+    <h2>About YouTube</h2>
+
+    <header>
+        <h1>YouTube</h1>
+        <p>YouTube is a video sharing platform where users can upload, view, and share videos.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png"
+            alt="YouTube logo" width="100">
+    </header>
+
+    <main>
+        <section>
+            <h2>Features</h2>
+            <ul>
+                <li><a href="#youtube">Video Uploading</a></li>
+                <li><a href="#live">Live Streaming</a></li>
+                <li><a href="#subscribe">Subscriptions</a></li>
+                <li><a href="#comlike">Comments and Likes</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Popular Channels</h2>
+            <ol>
+                <li>T-Series</li>
+                <li>Cocomelon - Nursery Rhymes</li>
+                <li>PewDiePie</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>More About YouTube</h2>
+            <ol>
+                <li>
+                    <a href="files/music.mp3" download="music">Download file</a>
+                </li>
+            </ol>
+        </section>
+
+        <section>
+            <h3 id="youtube">Video Uploading</h3>
+            <p>Привет! Текст создан для того, чтобы потренировать навыки.</p>
+
+            <h3 id="live">Live Streaming</h3>
+            <p>Пример текста для описания функции прямых трансляций.</p>
+
+            <h3 id="subscribe">Subscriptions</h3>
+            <p>Привет! Текст создан для того, чтобы потренировать навыки 2.</p>
+
+            <h3 id="comlike">Comments and Likes</h3>
+            <p>Привет! Текст создан для того, чтобы потренировать навыки 3.</p>
+        </section>
+    </main>
+</body>
+
+</html>
